@@ -6,7 +6,7 @@
 
 ## 静态标签
 
-获取方式：进入[Shields.io](https://shields.io/)创建
+获取方式：进入[Shields.io](https://shields.io/)创建，或者可以直接在官网搜索关键字
 
 - #### 标签名+信息
 
@@ -38,93 +38,109 @@
 
 仅用于github上，可以实时更新，但仓库必须是公开可读的
 
-- #### 分支
+- #### commit个数
 
-![](https://badgen.net/github/branches/BlueBoxChamil/ReadmeTest)
-
-```
-![](https://badgen.net/github/branches/BlueBoxChamil/ReadmeTest)
-```
-
-- #### 发布个数
-
-![](https://badgen.net/github/releases/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/commit-activity/t/BlueBoxChamil/ReadmeTest)
 
 ```
-![](https://badgen.net/github/releases/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/commit-activity/t/BlueBoxChamil/ReadmeTest)
 ```
 
-- #### 最新发布
+- #### last commit
 
-![](https://badgen.net/github/release/BlueBoxChamil/ReadmeTest)
-
-```
-![](https://badgen.net/github/release/BlueBoxChamil/ReadmeTest)
-```
-
-- #### 许可证
-
-![](https://badgen.net/github/license/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/last-commit/BlueBoxChamil/ReadmeTest)
 
 ```
-![](https://badgen.net/github/license/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/last-commit/BlueBoxChamil/ReadmeTest)
 ```
 
-- #### 观看人数
+- #### 最新release
 
-![](https://badgen.net/github/watchers/BlueBoxChamil/LVGL-clock)
-
-```
-![](https://badgen.net/github/watchers/BlueBoxChamil/LVGL-clock)
-```
-
-- #### tag个数
-
-![](https://badgen.net/github/tags/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/v/release/BlueBoxChamil/ReadmeTest)
 
 ```
-![](https://badgen.net/github/tags/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/v/release/BlueBoxChamil/ReadmeTest)
+```
+
+- #### release日期
+
+![](https://img.shields.io/github/release-date/BlueBoxChamil/ReadmeTest)
+
+```
+![](https://img.shields.io/github/release-date/BlueBoxChamil/ReadmeTest)
 ```
 
 - #### 最新tag
 
-![](https://badgen.net/github/tag/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/v/tag/BlueBoxChamil/ReadmeTest)
 
 ```
-![](https://badgen.net/github/tag/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/v/tag/BlueBoxChamil/ReadmeTest)
 ```
 
-- #### 收藏人数
+- #### issues
 
-![](https://badgen.net/github/stars/BlueBoxChamil/LVGL-clock)
+![](https://img.shields.io/github/issues/BlueBoxChamil/ReadmeTest)
+
+![](https://img.shields.io/github/issues-closed/BlueBoxChamil/ReadmeTest)
 
 ```
-![](https://badgen.net/github/stars/BlueBoxChamil/LVGL-clock)
+![](https://img.shields.io/github/issues/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/issues-closed/BlueBoxChamil/ReadmeTest)
+```
+
+- #### repositories创建日期
+
+![](https://img.shields.io/github/created-at/BlueBoxChamil/ReadmeTest)
+
+```
+![](https://img.shields.io/github/created-at/BlueBoxChamil/ReadmeTest)
+```
+
+- #### repositories大小
+
+![](https://img.shields.io/github/repo-size/BlueBoxChamil/ReadmeTest)
+
+```
+![](https://img.shields.io/github/repo-size/BlueBoxChamil/ReadmeTest)
+```
+
+- #### 代码大小
+
+![](https://img.shields.io/github/languages/code-size/BlueBoxChamil/LVGL-clock)
+
+```
+![](https://img.shields.io/github/languages/code-size/BlueBoxChamil/LVGL-clock)
+```
+
+- #### star人数
+
+![](https://img.shields.io/github/stars/BlueBoxChamil/LVGL-clock)
+
+```
+![](https://img.shields.io/github/stars/BlueBoxChamil/LVGL-clock)
 ```
 
 - #### 贡献者个数
 
-![](https://badgen.net/github/contributors/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/contributors/BlueBoxChamil/ReadmeTest)
 
 ```
-![](https://badgen.net/github/contributors/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/contributors/BlueBoxChamil/ReadmeTest)
 ```
 
-- #### commit个数
+- #### label，要存在才行
 
-![](https://badgen.net/github/commits/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/labels/BlueBoxChamil/ReadmeTest/question)
 
-```
-![](https://badgen.net/github/commits/BlueBoxChamil/ReadmeTest)
-```
-
-- #### 最近commit时间
-
-![](https://badgen.net/github/last-commit/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/labels/BlueBoxChamil/ReadmeTest/bug)
 
 ```
-![](https://badgen.net/github/last-commit/BlueBoxChamil/ReadmeTest)
+![](https://img.shields.io/github/labels/BlueBoxChamil/ReadmeTest/question)
+![](https://img.shields.io/github/labels/BlueBoxChamil/ReadmeTest/bug)
 ```
+
+#### 
 
 ## Admonition特殊语法
 
@@ -184,7 +200,7 @@
 > [!tip]
 >
 > - 当然也可以优先先把各级标题内容写好，在typora中直接点击`段落->内容目录`生成目录
-> - 但这个在vscode中看不到，当在vscode中用标准格式写入一级标题时，会自动补全出后续的标题，这个有可能是markdowm中的某些插件生成的。这种目录更通用点，而且还会随着标题的更新而自动更新
+> - 但使用typora生成的目录在vscode中看不到，当在vscode中用标准格式写入一级标题时，会自动补全出后续的标题，这个有可能是markdowm中的某些插件生成的。这种目录更通用点，而且还会随着标题的更新而自动更新
 
 
 
